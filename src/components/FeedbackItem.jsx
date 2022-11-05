@@ -7,10 +7,6 @@ import React from 'react'
 
 function FeedbackItem({ item }) {   
     const { deleteFeedback , editFeedback} = useContext(FeedbackContext)
-    
-    const handleClick = (id) => {
-        console.log(id)
-    }
 
     return (
         <Card>
